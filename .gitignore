@@ -1,0 +1,22 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Config / secrets
+.env
+*.key
+*.pem
+
+# Data (don't commit real data)
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# System
+.DS_Store
+Thumbs.db
